@@ -5,6 +5,7 @@
 | Prop      | Type | Default                                                | Note |
 | --------- | ---- | ------------------------------------------------------ | ---- |
 | `geojson` |  `GeoJSON`    |  | [Geojson](https://geojson.org/) description of object. |
+| `image` | `ImageSource`* |  | A custom image to be used as the marker's icon. Only local image resources are allowed to be used.
 | `strokeColor` | `String`     | stroke color in GeoJson if present else `#000` | The stroke color to use for the path.  |
 | `fillColor` | `String`     | fill color in GeoJson | The fill color to use for the path. |
 | `strokeWidth` | `Number`     | stroke width in Geojson if present else `1` | The stroke width to use for the path. |
